@@ -63,7 +63,7 @@ The XAI algorithms that are currently offered in the repository are listed in th
 
 | Algorithm | Type | Description | Example |
 |-----------|------|-------------|---------|
-| Gradient-weighted Class Activation Mapping (Grad-CAM) | non-model-agnostic | Algorithm that uses the gradients of any target concept (say ‘dog’ in a classification network or a sequence of words in captioning network) flowing into the final convolutional layer to produce a coarse localization map highlighting the important regions in the image for predicting the concept. It works only with CNNs. | [Quick start](examples/00_quick_start/grad_cam_torch.ipynb) / [Deep dive](examples/01_deep_dive/grad_cam_torch.ipynb) |
+| Gradient-weighted Class Activation Mapping (Grad-CAM) | non-model-agnostic | Algorithm that uses the gradients of any target concept (say ‘dog’ in a classification network or a sequence of words in captioning network) flowing into the final convolutional layer, to produce a coarse localization map highlighting the important regions in the image for predicting the concept. It works only with CNNs. | [Quick start](examples/00_quick_start/grad_cam_torch.ipynb) / [Deep dive](examples/01_deep_dive/grad_cam_torch.ipynb) |
 
 
 ### Algorithm Comparison
