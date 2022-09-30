@@ -77,3 +77,4 @@ We welcome contributions and ideas for this project. Please review our [contribu
 ## Related projects
 
 ## Reference papers
+- [Layer-wise Relevance Propagation for Neural Networks with Local Renormalization Layers](https://arxiv.org/abs/1604.00825)
