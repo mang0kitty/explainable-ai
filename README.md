@@ -64,6 +64,8 @@ The XAI algorithms that are currently offered in the repository are listed in th
 | Algorithm | Type | Description | Example |
 |-----------|------|-------------|---------|
 | Gradient-weighted Class Activation Mapping (Grad-CAM) | non-model-agnostic | Algorithm that uses the gradients of any target concept (say ‘dog’ in a classification network or a sequence of words in captioning network) flowing into the final convolutional layer, to produce a coarse localization map highlighting the important regions in the image for predicting the concept. It works only with CNNs. | [Quick start](examples/00_quick_start/grad_cam_torch.ipynb) / [Deep dive](examples/01_deep_dive/grad_cam_torch.ipynb) |
+| Local Interpretable Model-agnostic (LIME) | model-agnostic | LIME  is a visualization technique that helps explain individual predictions. It is model agnostic so it can be applied to any supervised regression or classification model. | [Quick start](examples/LIME.ipynb) |
+| Layer-wise Relevance Propagation (LRP) | non-model-agnostic | LRP is a technique that brings such explainability and scales to potentially highly complex deep neural networks. It operates by propagating the prediction backward in the neural network, using a set of purposely designed propagation rules | [Quick start](examples/LRP.ipynb) |
 
 
 ### Algorithm Comparison
