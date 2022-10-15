@@ -18,43 +18,42 @@ The package and its dependencies should be installed in a clean environment (suc
 
 To set up on your local machine:
 
-* Core utilities, CPU-based algorithms, and dependencies should be installed:
+1. Core utilities, CPU-based algorithms, and dependencies should be installed:
 
-    1. Verify that Python libraries and the necessary applications 
-       are installed.
+1. Verify that Python libraries and the necessary applications are installed.
 
-       + On Linux this can be supported by adding:
+   + On Linux this can be supported by adding:
 
-         ```bash
-         sudo apt-get install -y build-essential libpython<version>
-         ``` 
+     ```bash
+     sudo apt-get install -y build-essential libpython<version>
+     ``` 
 
-         where `<version>` should be the Python version (e.g. `3.10`).
+     where `<version>` should be the Python version (e.g. `3.10`).
 
-       + On Windows you will need [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
-    
-    2. Create a conda or virtual environment.  See the
-       [setup guide](SETUP.md) for more details.
+   + On Windows you will need [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 
-    3. Into the created environment, install the package from
-       [PyPI](https://pypi.org):
+1. Create a conda or virtual environment.  See the
+   [setup guide](SETUP.md) for more details.
 
-       ```bash
-       pip install --upgrade pip
-       pip install --upgrade setuptools
-       ```
+1. Into the created environment, install the package from
+   [PyPI](https://pypi.org):
 
-    4. Register your (conda or virtual) environment with Jupyter:
+   ```bash
+   pip install --upgrade pip
+   pip install --upgrade setuptools
+   ```
 
-       ```bash
-       python -m ipykernel install --user --name my_environment_name --display-name ".venv"
-       ```
-    
-    5. Start the Jupyter notebook server
+1. Register your (conda or virtual) environment with Jupyter:
 
-       ```bash
-       jupyter notebook
-       ```
+   ```bash
+   python -m ipykernel install --user --name my_environment_name --display-name ".venv"
+   ```
+
+1. Start the Jupyter notebook server
+
+   ```bash
+   jupyter notebook
+   ```
 
 ## Algorithms
 
