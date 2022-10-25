@@ -10,9 +10,7 @@ def create_lime_text_explanation(
     data_point,
     num_features=2,
     top_labels=1,
-    show_all=True,
     discretize_continuous=True,
-    show_table=True,
 ):
     """
     If show_all=False only the features used in the explanation are displayed.
@@ -31,4 +29,4 @@ def create_lime_text_explanation(
         num_features=num_features,
         top_labels=top_labels,
     )
-    explanation.show_in_notebook(show_table=show_table, show_all=show_all)
+    return explanation
