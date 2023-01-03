@@ -62,5 +62,3 @@ To make setting up for various environments simpler, a [Dockerfile](tools/docker
 To build and execute images for various environments, refer to the Docker [README](tools/docker/README.md) for complete instructions.
 
 You can then open the Jupyter notebook server at http://localhost:8888
-
-## Setup guide for making a release
