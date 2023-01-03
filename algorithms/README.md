@@ -5,7 +5,7 @@ Machine learning algorithms' output and outcomes may now be understood and trust
 
 Explainable artificial intelligence (XAI) is a set of processes and methods that allows human users to comprehend and trust the results and output created by machine learning algorithms. Explainable AI is used to describe an AI model, its expected impact and potential biases. It helps characterize model accuracy, fairness, transparency and outcomes in AI-powered decision making. Explainable AI is crucial for an organization in building trust and confidence when putting AI models into production. AI explainability also helps an organization adopt a responsible approach to AI development.
 
-## Pretrained models which used by XAI algorithms
+## Pretrained models which were used by XAI algorithms
 
 ### VGG variations
 
